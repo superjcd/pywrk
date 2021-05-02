@@ -6,7 +6,7 @@ A very small http/https benchmark tool written in python.
 
 ## Usage 
 
-You can  download it from pipy:
+You can  download it from pypi:
 
 ```shell
 pip install pywrk
@@ -18,7 +18,7 @@ A minium example looks like bewlow:
 pywrk -n 100 -c 2 https://www.python.org
 ```
 
-Note flag `n` means total number of request times, and flag `c` means connections at same time(You can think it as how many threads being used simotaniously, thought behind the scene pywrk uses a tech called coroutine other than  threads , but looks similar functionally).
+Note flag `n` means total number of request times, and flag `c` means connections at same time(You can think it as how many threads being used simotaniously, thought behind the scene pywrk uses a tech called coroutine other than  threads , but looks simmilar functionally).
 
 
 
@@ -75,4 +75,4 @@ Efficiency  The ratio of successfull request during whole process
 Eta         Expected time to finish whole process
 ```
 
-If any exceptions occurs during the process, the exceptions and the number of  that kind of  exception happened will be reported .
+If any exceptions occurs during the process, the exceptions and the number of  that kind of  exception happened will be reported as well.
