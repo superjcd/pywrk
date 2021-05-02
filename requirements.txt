@@ -1,1 +1,1 @@
-spydy
+spydy>=0.1.25
