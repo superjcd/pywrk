@@ -1,1 +1,3 @@
-spydy>=0.1.25
+spydy==0.1.25
+requests==2.25.1
+sqlalchemy==1.4.15
