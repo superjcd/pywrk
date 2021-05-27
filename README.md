@@ -18,7 +18,7 @@ A minium example looks like bewlow:
 pywrk -n 100 -c 2 https://www.python.org
 ```
 
-Note flag `n` means total number of request times, and flag `c` means connections at same time(You can think it as how many threads being used simotaniously, thought behind the scene pywrk uses a tech called coroutine other than  threads , but looks simmilar functionally).
+Note flag `n` means total number of request times, and flag `c` means connections at same time(You can think it as how many threads being used simotaniously, though behind the scene pywrk uses a  coroutine other than  threads , but looks simmilar functionally).
 
 
 
